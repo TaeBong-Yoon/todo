@@ -25,18 +25,15 @@ public class User {
 	private String userpassword;
 
 	@Column(nullable = false, length = 100)
-<<<<<<< HEAD
 	private String username;
 
 	@Enumerated(EnumType.STRING)
 	private RoleType role;
 
-=======
 	private String usernickname;
 
 	public void update(String userpassword, String usernickname){
 		this.userpassword = userpassword;
 		this.usernickname = usernickname;
 	}
->>>>>>> 73fb659fd8c0a4904a88df10b4c440c67afe078d
 }
